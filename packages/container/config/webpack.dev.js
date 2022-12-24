@@ -21,9 +21,6 @@ const devConfig = {
                 marketing: 'marketing@http://localhost:8081/remoteEntry.js'
             },
             shared: packageJson.dependencies
-        }),
-        new HtmlWebpackPlugin({
-            template: './public/index.html'
         })
     ]
 }
